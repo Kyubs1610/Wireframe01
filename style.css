@@ -102,4 +102,26 @@ h1,h2 {
         
 }
 
+.section-card{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    color: black;
+    
+    
+}
 
+.first-card{
+    width:20%;
+    box-shadow:8px 8px 10px 10px #a9a9a9;
+    
+}
+.second-card{
+    width:20%;
+    box-shadow:8px 8px 10px 10px #a9a9a9;
+}
+.third-card{
+    width:20%;
+    box-shadow:8px 8px 10px 10px #a9a9a9;
+}
