@@ -104,9 +104,7 @@ h1,h2 {
 
 .section-card{
     display:flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
+    justify-content: space-evenly;
     color: black;
     
     
@@ -115,6 +113,7 @@ h1,h2 {
 .first-card{
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
+    
     
 }
 .second-card{
