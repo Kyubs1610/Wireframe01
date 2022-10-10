@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    letter-spacing: 0.05em;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 11cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.text{
+ flex: 1;
+ flex-shrink: 1;
+
+}
+.image{
+    padding-left: 2cm;
+}
+.image-r{
+    padding-left: 250px;
+}
+
+.w-image{
+    width: 50%;
+
+}
+.bold{
+    font-weight: bolder;
+   
+}
+.btn{
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    background: rgb(209,166,100);
+    background: linear-gradient(90deg, rgb(209, 142, 100) 15%, rgba(252,1,90,1) 86%);
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+}
+hr{
+    border: 2px solid rgb(252,1,90,1);
+    
+}
+.pic{
+    width: 33vh;
+}
+#center{
+    text-align: center;
+}
+.profil1{
+    padding: 15px;
+}
+.profil{
+    padding: 15px;
+}
+.para{
+    font-weight: 100;
+}
