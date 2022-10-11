@@ -1,11 +1,6 @@
 *{
     box-sizing: border-box;
-<<<<<<< HEAD
-    padding:0;
-    margin: 0;
-=======
     margin:0;
->>>>>>> b25784d28755ed0270b3a512ec58a1f63e4d260f
   
 }
 
@@ -14,15 +9,6 @@ header{
    display: flex;
    flex-direction: column;
    color:white; 
-<<<<<<< HEAD
-   background-image: url("./asset/banner-bg.svg");
-   height: auto;
-   background-size:cover;
-   background-repeat: no-repeat;
-   background-position: center bottom;
-   padding: 30px;
-   
-=======
    background-image: url("./asset/banner-bg.svg");
    height: 100vh;
    width: 100vw;
@@ -31,7 +17,6 @@ header{
 
 
 
->>>>>>> b25784d28755ed0270b3a512ec58a1f63e4d260f
 }
 
 .flex{
@@ -80,12 +65,7 @@ header{
 align-items: center;       
 display:flex;
 flex-direction: column;
-<<<<<<< HEAD
-margin-top: 50px;
-
-=======
 margin-top:50px;
->>>>>>> b25784d28755ed0270b3a512ec58a1f63e4d260f
 }
 
 h1,h2 {
@@ -105,29 +85,11 @@ h1,h2 {
    
 }
 #pc{
-<<<<<<< HEAD
-    width: 550px;
-=======
     width: 600px;
->>>>>>> b25784d28755ed0270b3a512ec58a1f63e4d260f
 }
 
 .sponso{
     display: flex;
-<<<<<<< HEAD
-    justify-content: center;
-    filter:contrast(0);
-    flex-direction: row;
-      
-}
-
-
-#linediego{
-    border-bottom: 5px solid #fe7194;
-    display: flex;
-    width: 100px;
-    align-items: center;
-=======
     flex-direction: row;
     justify-content: space-evenly;
     filter:contrast(0);
@@ -137,7 +99,6 @@ h1,h2 {
 #linediego{
     border-bottom: 5px solid #fe7194;
     display: flex;
->>>>>>> b25784d28755ed0270b3a512ec58a1f63e4d260f
         
 }
 
@@ -163,8 +124,6 @@ h1,h2 {
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
 }
-<<<<<<< HEAD
-=======
 
 
 
@@ -240,4 +199,3 @@ hr{
 .para{
     font-weight: 100;
 }
->>>>>>> b25784d28755ed0270b3a512ec58a1f63e4d260f
