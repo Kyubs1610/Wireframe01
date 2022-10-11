@@ -171,7 +171,7 @@ p.card{
     
 }
 
-.p.card::after {
+p.card::after {
     content: "Learn More";
     color: #010101;
    
@@ -180,6 +180,40 @@ p.card{
 h3{
     text-align: center; 
 }
+#imgstuck{
+    display: table;
+    margin: 0 auto;
+
+}
+.bolt{
+    height:50px;
+    width: 50px;
+    z-index: 1;
+    position: relative;
+    top: -60px;
+    left: 10px;
+    
+}
+.clog{
+    height:40px;
+    width: 40px;
+    z-index: 1;
+    position: relative;
+    top: -60px;
+    left: 12px;
+}
+.ballon{
+    height:40px;
+    width: 40px;
+    z-index: 1;
+    position: relative;
+    top: -60px;
+    left: 12px;
+    /* filter: sepia(0%) contrast(0%) saturate(0%) ; */
+}
+/* Diego's part end */
+
+
 body{
     margin: 0;
     letter-spacing: 0.05em;
