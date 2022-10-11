@@ -127,30 +127,59 @@ p.cleanphr {
     margin-top: 5%; 
     margin-left: 10%;
     margin-right: 10%;
-    
-    
+        
 }
+
+
+.onglet{
+    display: table;
+    margin: 0 auto;
+} 
 
 .first-card{
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
+    background-image: url("./asset/services-shape.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 15px;
     
     
 }
 .second-card{
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
+    background-image: url("./asset/services-shape.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 15px;
 }
 .third-card{
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
+    background-image: url("./asset/services-shape.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 15px;
+    
 }
 
-p{
+p.card{
     text-align: center;
+    padding-bottom: 15px;
+    color: grey;
+    
 }
 
+.p.card::after {
+    content: "Learn More";
+    color: #010101;
+   
+  }
 
+h3{
+    text-align: center; 
+}
 body{
     margin: 0;
     letter-spacing: 0.05em;
