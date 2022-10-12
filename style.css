@@ -1,7 +1,10 @@
+
 *{
     box-sizing: border-box;
     margin:0;
+
 }
+
 
 
 header{
@@ -12,6 +15,8 @@ header{
    background-size: cover;
    background-repeat: no-repeat;
    background-position: bottom;
+   
+ 
 }
 
 .flex{
@@ -62,7 +67,13 @@ h1,h2 {
     font-size: xx-large;
 }
 
+h1{
+    font-weight: 100 ;
+}
 
+h2{
+    font-weight: 900;
+}
 .getstart{
 	border-radius: 10px; 
 	border: none;
@@ -83,7 +94,12 @@ h1,h2 {
     flex-direction: row;
     justify-content: space-evenly;
     filter:contrast(0);
-    margin-top: 5%;   
+    margin-top: 5%; 
+
+
+    padding: 0 15%;
+   
+
 }
 .logosponso{
     width: 150px;
@@ -94,6 +110,7 @@ h1,h2 {
     display: flex;
     flex-direction: row;
     width: 150px;
+    margin-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;  
@@ -114,8 +131,10 @@ p.cleanphr {
     justify-content: space-evenly;
     color: black;
     margin-top: 5%; 
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 0 3%;
+    
         
 }
 
@@ -126,13 +145,13 @@ p.cleanphr {
 } 
 
 .first-card{
-    width:20%;
+    width: 20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
     background-image: url("./asset/services-shape.svg");
     background-repeat: no-repeat;
     background-position: center top;
-    padding-top: 15px;
-    
+    padding-top: 25px;
+        
     
 }
 .second-card{
@@ -141,7 +160,7 @@ p.cleanphr {
     background-image: url("./asset/services-shape.svg");
     background-repeat: no-repeat;
     background-position: center top;
-    padding-top: 15px;
+    padding-top: 25px;
 }
 .third-card{
     width:20%;
@@ -149,7 +168,7 @@ p.cleanphr {
     background-image: url("./asset/services-shape.svg");
     background-repeat: no-repeat;
     background-position: center top;
-    padding-top: 15px;
+    padding-top: 25px;
     
 }
 
@@ -157,15 +176,20 @@ p.card{
     text-align: center;
     padding-bottom: 15px;
     color: grey;
+    padding-left: 10px;
     
 }
 
-p.card::after {
-    content: "Learn More";
-    color: #010101;
-   
-  }
+  h4{
+text-align: center;
+padding-bottom: 15px;
 
+  }
+.arrow{
+    width: 12px;
+    height: 11px;
+      
+}  
 h3{
     text-align: center; 
 }
@@ -198,14 +222,19 @@ h3{
     position: relative;
     top: -60px;
     left: 12px;
-    /* filter: sepia(0%) contrast(0%) saturate(0%) ; */
+   
 }
 /* Diego's part end */
 
-
+/* hassan's part begins */
 body{
     letter-spacing: 0.05em; 
-    font-family: 'Varela Round', sans-serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+
+=======
+
+    
 }
 
 
@@ -230,16 +259,17 @@ body{
     justify-content: center;
 }
 .text{
-    width: 33%;
+    width: 20%;
 
 }
 .image{
     padding-left: 2cm;
-    width: 20%;
+    width: 33%;
 }
 
 .w-image{
     width: 80%;
+    
 
 }
 .bold{
@@ -259,22 +289,47 @@ body{
 }
 hr{
     border: 2px solid rgb(252,1,90,1);
-    width: 17%;
+    width: 28%;
+}
+.text-no-center{
+    text-align: start;
 }
 .pic{
     width: 33vh;
 }
-#center{
+.center{
     text-align: center;
 }
 
 .profil{
-    padding: 15px;
+    padding: 15px; 
+}
+.underlay{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    padding-top: 70%;
+    padding-left: 20%;
+    width: 100%;
+    opacity: 1;
+    filter: contrast(0);
 }
 .para{
     font-weight: lighter;
     font-size: 50%;
 }
+.para2{
+    font-size: 90%;
+}
+/* hassan's part ends */
 
 
 /* container-reviews */
@@ -434,3 +489,42 @@ footer {
     font-weight: bold;
     text-align: left;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+
+    .flex-h{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2cm;
+        margin-bottom: 2cm;
+        margin-left: 40%;
+    }    
+    .flex-h2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 2cm;
+        margin-bottom: 2cm;
+        margin-left: 40%;
+    
+    }    
+    .flex2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text{
+        width: 100vh;
+        text-align: center;
+    }
+    .image{
+        width: 100%;
+    }
+    .underlay{
+        justify-content: center;
+    }
+    .overlay{
+        display: none;
+    }
+    }
