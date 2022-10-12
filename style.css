@@ -31,7 +31,9 @@ header{
 .nav-bar{
 	font-size: 18px;
 }
-
+#logor{
+    display:none;
+}
 .nav-link{
 	margin-left: 10px;
 	margin-right: 10px;
@@ -53,6 +55,13 @@ header{
 .marg-right-s{
 	margin-right: 15px;
 }
+.burger-icon span {
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
 
 /* fin de la barre de navigation */
 
@@ -131,7 +140,8 @@ p.cleanphr {
 /* 3 cartes */
 .section-card{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 50px;
     color: black;
     margin-top: 3%; 
     margin-left: 25%;
@@ -142,24 +152,6 @@ p.cleanphr {
 
 .first-card{
     width: 20%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-image: url("./asset/services-shape.svg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 25px;
-        
-    
-}
-.second-card{
-    width:20%;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-image: url("./asset/services-shape.svg");
-    background-repeat: no-repeat;
-    background-position: center top;
-    padding-top: 25px;
-}
-.third-card{
-    width:20%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-image: url("./asset/services-shape.svg");
     background-repeat: no-repeat;
@@ -410,3 +402,126 @@ footer {
     
 }
 
+/* mobile version */
+
+@media only screen and (min-width: 300px) and (max-width: 768px) { 
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.nav-bar{
+   display:none;
+  
+}
+.nav-bar > #logo{
+    display: flex;
+}
+
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+    
+}
+
+#pc{
+    max-width: 300px;
+    
+}
+
+
+.sponso{
+    display: flex;
+    flex-direction: column;
+    padding:none;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.logosponso{
+    width: 100px;
+    align-items: center;
+    margin:auto;
+    
+}
+h1, h2 {
+    font-size: larger;
+}
+p{
+    font-size: 10px;
+}
+.getstart{
+    width: 90px;
+    align-items: center;
+    font-size: small;
+}
+
+#linediego{
+    width: 150px;
+    
+}
+p.cleanphr{
+    font-size: 15px;
+    flex-direction: column;
+    text-align: center;
+    margin:auto;
+    padding-top: 20px;
+}
+
+.bolded{
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+}
+.section-card{
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+.first-card {
+width: auto;
+
+}
+p.card{
+    font-size: medium;
+}
+.burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+   
+}
+
+#logor{
+display: flex;
+width: 20%;
+}
+.hiddenmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+    
+
+}
+}
