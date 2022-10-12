@@ -8,7 +8,7 @@
 header{
    display: flex;
    flex-direction: column;
-   color:white; 
+   color: white; 
    background-image: url("./asset/banner-bg.svg");
    height: 100vh;
    width: 100vw;
@@ -199,3 +199,107 @@ hr{
 .para{
     font-weight: 100;
 }
+
+/* container-reviews */
+
+.authors-reviews {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 100;
+    /* column-width: 25%;
+    justify-content: space-between; */
+}
+.author1, .author2, .author3 {
+    column-width: 25%;
+    justify-content: space-between;
+
+}
+
+.title-reviews {
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 100;
+}
+.reviews-img {
+    display: inline-flexbox;
+    margin-top: 50px;
+}
+
+
+/* container-blog */
+.blog-items {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.blog-items a:link {
+    color: #fe7194;
+    line-height: 100px;
+}
+.blog-iteam1, .blog-item2, .blog-item3 {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+.blog-title {
+    margin-top: 150px;
+    font-weight: 100;
+}
+.date, .author {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: grey;
+    font-size: 14px;
+}
+
+
+/* container-footer */
+footer {
+    display: flex;
+    background-image: url(./asset/footer-bg.svg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: flex-end;
+}
+/* newsletter-form */
+.newsletter-content {
+    display: flex;
+    align-self: center;
+    max-width: 800px;
+    background-color: #80D0C7;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.block1, .block2, .block3, .block4 {
+    display: flex;
+    flex-direction: column;
+    min-width: 20%;
+    font-size: 15px;
+    color: white;
+    font-weight: lighter;
+    line-height: 30px;
+}
+
+.container-footer a:link {
+    color: white;
+    text-decoration: none;
+}
+.conteiner-footer h3 {
+    font-weight: bold;
+    
+}
+
