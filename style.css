@@ -144,7 +144,7 @@ p.cleanphr {
 
 .first-card{
     width: 20%;
-    box-shadow:8px 8px 10px 10px #a9a9a9;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-image: url("./asset/services-shape.svg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -154,7 +154,7 @@ p.cleanphr {
 }
 .second-card{
     width:20%;
-    box-shadow:8px 8px 10px 10px #a9a9a9;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-image: url("./asset/services-shape.svg");
     background-repeat: no-repeat;
     background-position: center top;
@@ -162,7 +162,7 @@ p.cleanphr {
 }
 .third-card{
     width:20%;
-    box-shadow:8px 8px 10px 10px #a9a9a9;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background-image: url("./asset/services-shape.svg");
     background-repeat: no-repeat;
     background-position: center top;
