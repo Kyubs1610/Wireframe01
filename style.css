@@ -1,10 +1,8 @@
 *{
     box-sizing: border-box;
     margin:0;
-    
-     
+   
 }
-
 
 header{
    display: flex;
@@ -15,8 +13,7 @@ header{
    background-repeat: no-repeat;
    background-position: bottom;
    padding-top: 20px;
-   
- 
+  
 }
 
 .flex{
@@ -52,9 +49,12 @@ header{
     width: 140px;
     height: 40px;
 }
+
 .marg-right-s{
 	margin-right: 15px;
 }
+
+/* fin de la barre de navigation */
 
 .intro{
 align-items: center;       
@@ -85,6 +85,9 @@ h2{
     width: 140px;
     height: 40px;
 }
+
+/* fin header */
+
 #pc{
     width: 600px;
     margin-top: 5%;
@@ -103,6 +106,7 @@ h2{
     width: 150px;
 }
 
+/* fin sponso + début ligne */
 #linediego{
     border-bottom: 5px solid #fe7194;
     display: flex;
@@ -124,23 +128,17 @@ p.cleanphr {
     
 }
 
+/* 3 cartes */
 .section-card{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     color: black;
-    margin-top: 5%; 
+    margin-top: 3%; 
     margin-left: 25%;
     margin-right: 25%;
-    
-    
-        
+           
 }
-
-
-.onglet{
-    display: table;
-    margin: 0 auto;
-} 
+ 
 
 .first-card{
     width: 20%;
@@ -191,6 +189,13 @@ padding-bottom: 15px;
 h3{
     text-align: center; 
 }
+
+/* superposition ombre, mediator et icone */
+.onglet{
+    display: table;
+    margin: 0 auto;
+}
+
 #imgstuck{
     display: table;
     margin: 0 auto;
