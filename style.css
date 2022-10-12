@@ -1,7 +1,6 @@
 *{
     box-sizing: border-box;
     margin:0;
-  
 }
 
 
@@ -10,18 +9,13 @@ header{
    flex-direction: column;
    color: white; 
    background-image: url("./asset/banner-bg.svg");
-   height: 100vh;
-   width: 100vw;
    background-size: cover;
    background-repeat: no-repeat;
-
-
-
+   background-position: bottom;
 }
 
 .flex{
 	display: flex;
-
 }
 
 .space-around{
@@ -30,12 +24,10 @@ header{
 
 .align-center{
 	align-items: center;
-
 }
 
 .nav-bar{
 	font-size: 18px;
-    
 }
 
 .nav-link{
@@ -43,7 +35,6 @@ header{
 	margin-right: 10px;
 	color: white;
 	text-decoration: none;
-    
 }
 
 .btndwnld{
@@ -55,7 +46,6 @@ header{
     color: white;
     width: 140px;
     height: 40px;
-   
 }
 .marg-right-s{
 	margin-right: 15px;
@@ -82,10 +72,10 @@ h1,h2 {
     color: white;
     width: 140px;
     height: 40px;
-   
 }
 #pc{
     width: 600px;
+    margin-top: 5%;
 }
 
 .sponso{
@@ -93,45 +83,128 @@ h1,h2 {
     flex-direction: row;
     justify-content: space-evenly;
     filter:contrast(0);
-   
+    margin-top: 5%;   
+}
+.logosponso{
+    width: 150px;
 }
 
 #linediego{
     border-bottom: 5px solid #fe7194;
     display: flex;
-        
+    flex-direction: row;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;  
+}
+.bolded { 
+    font-weight: bold; 
+}
+p.cleanphr {
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    margin-top: 5%; 
+    
 }
 
 .section-card{
     display:flex;
     justify-content: space-evenly;
     color: black;
-    
-    
+    margin-top: 5%; 
+    margin-left: 10%;
+    margin-right: 10%;
+        
 }
+
+
+.onglet{
+    display: table;
+    margin: 0 auto;
+} 
 
 .first-card{
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
+    background-image: url("./asset/services-shape.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 15px;
     
     
 }
 .second-card{
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
+    background-image: url("./asset/services-shape.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 15px;
 }
 .third-card{
     width:20%;
     box-shadow:8px 8px 10px 10px #a9a9a9;
+    background-image: url("./asset/services-shape.svg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 15px;
+    
 }
 
+p.card{
+    text-align: center;
+    padding-bottom: 15px;
+    color: grey;
+    
+}
 
+p.card::after {
+    content: "Learn More";
+    color: #010101;
+   
+  }
+
+h3{
+    text-align: center; 
+}
+#imgstuck{
+    display: table;
+    margin: 0 auto;
+
+}
+.bolt{
+    height:50px;
+    width: 50px;
+    z-index: 1;
+    position: relative;
+    top: -60px;
+    left: 10px;
+    
+}
+.clog{
+    height:40px;
+    width: 40px;
+    z-index: 1;
+    position: relative;
+    top: -60px;
+    left: 12px;
+}
+.ballon{
+    height:40px;
+    width: 40px;
+    z-index: 1;
+    position: relative;
+    top: -60px;
+    left: 12px;
+    /* filter: sepia(0%) contrast(0%) saturate(0%) ; */
+}
+/* Diego's part end */
 
 
 body{
-    margin: 0;
-    letter-spacing: 0.05em;
-    box-sizing: border-box;
+    letter-spacing: 0.05em; 
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -140,8 +213,13 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
-    margin-left: 11cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+.flex-h2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
     margin-top: 2cm;
     margin-bottom: 2cm;
 }
@@ -152,24 +230,23 @@ body{
     justify-content: center;
 }
 .text{
- flex: 1;
- flex-shrink: 1;
+    width: 33%;
 
 }
 .image{
     padding-left: 2cm;
-}
-.image-r{
-    padding-left: 250px;
+    width: 20%;
 }
 
 .w-image{
-    width: 50%;
+    width: 80%;
 
 }
 .bold{
     font-weight: bolder;
-   
+}
+.grey{
+    color: grey;
 }
 .btn{
     border-radius: 8px;
@@ -182,7 +259,7 @@ body{
 }
 hr{
     border: 2px solid rgb(252,1,90,1);
-    
+    width: 17%;
 }
 .pic{
     width: 33vh;
@@ -190,15 +267,15 @@ hr{
 #center{
     text-align: center;
 }
-.profil1{
-    padding: 15px;
-}
+
 .profil{
     padding: 15px;
 }
 .para{
-    font-weight: 100;
+    font-weight: lighter;
+    font-size: 50%;
 }
+
 
 /* container-reviews */
 
