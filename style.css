@@ -63,15 +63,6 @@ header{
   }
 
 /* fin de la barre de navigation */
-.burger-icon span {
-    display: none;
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-  }
-
-/* fin de la barre de navigation */
 
 .intro{
 align-items: center;       
@@ -104,7 +95,7 @@ h2{
     height: 40px;
 }
 
-/* fin header */
+
 
 
 /* fin header */
@@ -133,7 +124,7 @@ h2{
     width: 150px;
 }
 
-/* fin sponso + début ligne */
+
 /* fin sponso + début ligne */
 #linediego{
     border-bottom: 5px solid #fe7194;
@@ -159,7 +150,7 @@ p.cleanphr {
     
 }
 
-/* 3 cartes */
+
 /* 3 cartes */
 .section-card{
     display:flex;
@@ -205,11 +196,6 @@ h3{
     text-align: center; 
 }
 
-/* superposition ombre, mediator et icone */
-.onglet{
-    display: table;
-    margin: 0 auto;
-}
 
 
 /* superposition ombre, mediator et icone */
@@ -337,28 +323,9 @@ hr{
 .profil{
     padding: 15px; 
 }
-.underlay{
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-.overlay{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 0;
-    padding-top: 70%;
-    padding-left: 20%;
-    width: 100%;
-    opacity: 1;
-    filter: contrast(0);
-}
-.para{
-    font-weight: lighter;
-    font-size: 50%;
-}
+
+
+
 .underlay{
     position: relative;
     width: 100%;
@@ -401,6 +368,7 @@ hr{
 
 .title-span-reviews {
     font-weight: lighter;
+}
 .title-span-reviews {
     font-weight: lighter;
 }
@@ -538,21 +506,6 @@ hr{
 
 .blog-item3 {
     width: 25%;
-}
-
-/* newsletter-form */
-.newsletter-content {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
-    box-shadow: #010101;
-    border-radius: 32px;
-    color: #0093E9;
-}
-.input text {
-    color: #fe7194;
-
 }
 
 
