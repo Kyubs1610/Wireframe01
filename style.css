@@ -1,3 +1,4 @@
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -10,8 +11,7 @@ header{
    background-size: cover;
    background-repeat: no-repeat;
    background-position: bottom;
-   padding-top: 20px;
-  
+   padding-top: 20px;  
 }
 
 .flex{
@@ -50,9 +50,19 @@ header{
     height: 40px;
 }
 
+
 .marg-right-s{
 	margin-right: 15px;
 }
+.burger-icon span {
+    display: none;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+/* fin de la barre de navigation */
 .burger-icon span {
     display: none;
     width: 35px;
@@ -68,6 +78,7 @@ align-items: center;
 display:flex;
 flex-direction: column;
 margin-top:50px;
+font-size: smaller;
 font-size: smaller;
 }
 
@@ -95,6 +106,9 @@ h2{
 
 /* fin header */
 
+
+/* fin header */
+
 #pc{
     width: 600px;
     margin-top: 5%;
@@ -108,8 +122,11 @@ h2{
     margin-top: 5%; 
 
 
+
+
     padding: 0 15%;
    
+
 
 }
 .logosponso{
@@ -117,11 +134,13 @@ h2{
 }
 
 /* fin sponso + début ligne */
+/* fin sponso + début ligne */
 #linediego{
     border-bottom: 5px solid #fe7194;
     display: flex;
     flex-direction: row;
     width: 150px;
+    margin-bottom: 2%;
     margin-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
@@ -137,8 +156,10 @@ p.cleanphr {
     margin-top: 5%; 
     
     
+    
 }
 
+/* 3 cartes */
 /* 3 cartes */
 .section-card{
     display:flex;
@@ -150,7 +171,7 @@ p.cleanphr {
     margin-right: 25%;
            
 }
- 
+  
 
 .first-card{
     width: 30%;
@@ -183,6 +204,13 @@ padding-bottom: 15px;
 h3{
     text-align: center; 
 }
+
+/* superposition ombre, mediator et icone */
+.onglet{
+    display: table;
+    margin: 0 auto;
+}
+
 
 /* superposition ombre, mediator et icone */
 .onglet{
@@ -227,7 +255,10 @@ h3{
 
 body{
     letter-spacing: 0.05em; 
-    font-family: "Helvetica", Sans-Serif;
+
+    font-family: 'Nunito Sans', sans-serif;
+
+  
     
 }
 
@@ -253,12 +284,12 @@ body{
     justify-content: center;
 }
 .text{
-    width: 33%;
+    width: 20%;
 
 }
 .image{
     padding-left: 2cm;
-    width: 20%;
+    width: 33%;
 }
 
 .w-image{
@@ -283,7 +314,13 @@ body{
 }
 hr{
     border: 2px solid rgb(252,1,90,1);
-    width: 17%;
+    width: 28%;
+}
+.text-no-center{
+    text-align: start;
+}
+.text-no-center{
+    text-align: start;
 }
 .text-no-center{
     text-align: start;
@@ -298,7 +335,25 @@ hr{
 
 
 .profil{
-    padding: 15px;
+    padding: 15px; 
+}
+.underlay{
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    padding-top: 70%;
+    padding-left: 20%;
+    width: 100%;
+    opacity: 1;
+    filter: contrast(0);
 }
 .para{
     font-weight: lighter;
@@ -346,6 +401,8 @@ hr{
 
 .title-span-reviews {
     font-weight: lighter;
+.title-span-reviews {
+    font-weight: lighter;
 }
 
 .title-reviews {
@@ -381,9 +438,33 @@ hr{
     width: 25%;
     padding: 20px 20px 20px 20px;
 }
+.reviews-h3h4 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.author1 {
+    width: 25%;
+    padding: 20px 20px 20px 20px;
+}
+
+.author2 {
+    width: 28%;
+    border: 2px solid #fe7194; 
+    border-radius: 20px;
+    box-shadow: 2cm black;
+    padding: 20px 20px 20px 20px;
+}
+
+.author3 {
+    width: 25%;
+    padding: 20px 20px 20px 20px;
+}
 
 
 /* container-blog */
+
 
 .blog-items {
     display: flex;
@@ -396,6 +477,7 @@ hr{
     line-height: 25px;
 }
 
+
 .blog-items a:link {
     color: #fe7194;
     line-height: 100px;
@@ -405,7 +487,9 @@ hr{
     margin-top: 150px;
     font-weight: 100;
     margin-left: 60px;
+    margin-left: 60px;
 }
+
 
 .date, .author {
     display: inline-block;
@@ -413,6 +497,34 @@ hr{
     margin-bottom: 15px;
     color: grey;
     font-size: 14px;
+    font-weight: 100;
+}
+
+.blog-item1 {
+    width: 25%;
+}
+
+.blog-item2 {
+    width: 25%;
+}
+
+.blog-item3 {
+    width: 25%;
+}
+
+/* newsletter-form */
+.newsletter-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    box-shadow: #010101;
+    border-radius: 32px;
+    color: #0093E9;
+}
+.input text {
+    color: #fe7194;
+
     font-weight: 100;
 }
 
